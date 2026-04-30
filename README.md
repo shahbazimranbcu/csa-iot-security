@@ -53,7 +53,7 @@ Security Posture Score (0-100)
 | `ton-iot-network-adver.py` | CSA evaluation on TON-IoT network data under adversarial conditions |
 | `ton-iot-network-normal.py` | CSA evaluation on TON-IoT network data under normal conditions |
 | `StrideDS.py` | CSA evaluation on the SmartHome-StrideDS dataset |
-| `dashu.py` | Real-time CSA dashboard (Streamlit) |
+| `dashboard.py` | Real-time CSA dashboard (Streamlit) |
 
 ---
 
@@ -114,7 +114,7 @@ python ton-iot-host-adver.py
 Launch the real-time dashboard:
 
 ```bash
-streamlit run dashu.py
+streamlit run dashboard.py
 ```
 
 ---
